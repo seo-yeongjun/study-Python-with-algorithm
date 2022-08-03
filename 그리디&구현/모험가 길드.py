@@ -11,7 +11,7 @@
 
 파티원 = list(map(int, input().split()))
 공포도 = set(파티원)
-답 = 0;
+답 = 0
 for g in 공포도:
     if g <= 파티원.count(g):
         답 += 파티원.count(g)//g
