@@ -8,3 +8,7 @@
 #  a = [] 리스트
 #  a =  { 1:2,} 딕셔너리
 #  a = set() 셋
+
+
+# 파이썬에서 stack => [] 리스트를 활용 append pop top
+# 파이썬에서 queue => from collections import deque    append popleft
